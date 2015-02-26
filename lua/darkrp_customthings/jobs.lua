@@ -17,7 +17,20 @@ http://wiki.darkrp.com/index.php/DarkRP:CustomJobFields
 
 Add jobs under the following line:
 ---------------------------------------------------------------------------]]
-
+TEAM_OWNER = DarkRP.createJob("owner on duty", {
+    color = Color(0, 0, 0, 255),
+    model = {models/player/combine_super_soldier.mdl},
+    description = [[your the owner of the sever]],
+    weapons = {"weapon_ak472"},
+    command = "/owner",
+    max = 1,
+    salary = 3424234,
+    admin = 2,
+    vote = false,
+    hasLicense = true,
+     
+    -- Insert customCheck here if you have one and want one.
+})
 
 
 
